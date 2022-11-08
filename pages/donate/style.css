@@ -1,0 +1,476 @@
+body {
+    margin: 0 auto;
+    width: 1600px;
+}
+
+li a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.logo {
+    align-items: center;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-right: auto;
+    margin-left: 220px;
+}
+
+.nav-menu {
+    list-style: none;
+}
+
+.nav-menu li {
+    display: inline-block;
+    padding: 0px 29px;
+}
+
+.nav-menu li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-menu li a:hover {
+    color: #F9804B;
+}
+
+.designed {
+    position: relative;
+    left: 391px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+h1 span {
+    display: none;
+}
+
+#about {
+    color: #F9804B;
+    transition: all 0.3s ease 0s;
+}
+
+#about:hover {
+    color: white;
+}
+
+#section1 {
+    margin: 0;
+    padding: 0;
+    width: 1600px;
+    height: 390px;
+    background-image: url(../../assets/images/Giant-Panda.jpg);
+}
+
+#section2 {
+    background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+    width: 1600px;
+    height: 1482px;
+}
+
+#pick {
+    position: relative;
+    top: 40px;
+    left: 220px;
+    background: rgba(255, 255, 255, 0.52);
+    width: 1160px;
+    height: 964px;
+    border-radius: 20px;
+}
+
+.first {
+    position: relative;
+    top: 40px;
+    margin: 0px 0px 10px 0px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: -1.9px;
+    font-weight: 400;
+    font-size: 36px;
+    color: white;
+    text-decoration: none;
+    line-height: 130%;
+    text-align: center;
+}
+
+#section2 p.second {
+    position: relative;
+    top: 40px;
+    margin: 0px 0px 40px 0px;
+    position: relative;
+    left: 230px;
+    width: 1160px;
+    height: 94px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    line-height: 140%;
+}
+
+#section2 p.third {
+    position: relative;
+    top: 40px;
+    margin: 0px 0px 60px 0px;
+    position: relative;
+    left: 230px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #FE9013;
+    line-height: 130%;
+}
+
+.one {
+    padding: 40px 0px 20px 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #FE9013;
+    text-decoration: none;
+    line-height: 120%;
+    text-align: center;
+}
+
+.two {
+    position: relative;
+    left: 92px;
+    margin: 0px 0px 165px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #333B41;
+}
+
+.three {
+    position: relative;
+    left: 366px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 80%;
+    color: #333B41;
+}
+
+.x {
+    position: relative;
+    left: 477px;
+    bottom: 36px;
+    width: 14px;
+    height: 14px;
+    color: #333B41;
+}
+
+.four {
+    position: relative;
+    left: 307px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #333B41;
+}
+
+.panda {
+    position: relative;
+    left: 555px;
+    bottom: 210px;
+}
+
+.progress-bar {
+    position: relative;
+    left: 92px;
+    bottom: 120px;
+}
+
+.money {
+    position: relative;
+    left: 92px;
+    bottom: 150px;
+    word-spacing: 58px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    color: #333B41;
+}
+
+.money span {
+    color: #FE9013;
+}
+
+.another-amount {
+    background: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    width: 268px;
+    height: 54px;
+    position: relative;
+    left: 446px;
+    bottom: 120px;
+    border: 1px solid #929699;
+    border-radius: 2px;
+}
+
+.btn {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    width: 298px;
+    height: 54px;
+    position: relative;
+    left: 434px;
+    bottom: 70px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 25px;
+    border: none;
+    color: white;
+}
+
+.btn:hover {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    width: 298px;
+    height: 54px;
+    position: relative;
+    left: 434px;
+    bottom: 70px;
+    background: linear-gradient(113.96deg, #fbc9b2 1.49%, #ffc584 101.44%);
+    border-radius: 25px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+[type="radio"] {
+    opacity: 0;
+}
+
+[type="radio"] + label {
+    position: relative;
+    left: 450px;
+    bottom: 100px;
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333B41;
+}
+
+[type="radio"] + label::before{
+    content: "";
+    position: absolute;
+    right: 60px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: solid 1px #FE9013;
+}
+
+[type="radio"]:checked + label::after{
+    content: "";
+    position: absolute;
+    right: 64.25px;
+    top: 2.6px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #FE9013;;
+}
+
+.share{
+    position: relative;
+    bottom: 62px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #333B41;
+}
+
+footer {
+    background: black;
+    height: 443px;
+}
+
+footer .subscribe {
+    position: relative;
+    left: 1013px;
+    bottom: 58px;
+    margin: 40px 0px 0px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+footer button#donate {
+    position: relative;
+    bottom: 34px;
+    margin: 75px 0px 0px 220px;
+    width: 298px;
+    height: 54px;
+    border-radius: 5px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+footer button#donate:hover {
+    position: relative;
+    bottom: 34px;
+    margin: 75px 0px 0px 220px;
+    width: 298px;
+    height: 54px;
+    border-radius: 5px;
+    background: linear-gradient(113.96deg, #fbc9b2 1.49%, #ffc584 101.44%);
+    cursor: pointer;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+footer .mail {
+    position: relative;
+    bottom: 120px;
+    left: 493px;
+    width: 228px;
+    height: 42px;
+    border: 0.7px solid #F9804B;
+    border-radius: 2px;
+    background: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #BDBDBD;
+}
+
+footer .sbmt {
+    position: relative;
+    left: 497px;
+    bottom: 122px;
+    width: 129px;
+    height: 42px;
+    border-radius: 5px;
+    background: #F1F3F2;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+footer .sbmt:hover {
+    position: relative;
+    left: 497px;
+    bottom: 122px;
+    width: 129px;
+    height: 42px;
+    border-radius: 5px;
+    background: #000a05;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.navigation a {
+    margin-left: 58px;
+    position: relative;
+    left: 350px;
+    top: -20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer .petstory {
+    position:relative;
+    top: 41px;
+    left: 220px;
+}
+
+.social {
+    margin: 0px 12px 0px 0px;
+    position: relative;
+    top: 6px;
+    left: 0px;
+    background: rgba(196, 196, 196, 0.5);
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+}
+
+.contacts {
+    margin-left: 220px;
+}
+
+div.by p {
+    position: relative;
+    left: 920px;
+    bottom: 80px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 130%;
+    color: white;
+}
+
