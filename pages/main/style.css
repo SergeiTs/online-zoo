@@ -1,0 +1,554 @@
+body {
+    margin: 0 auto;
+    width: 1600px;
+}
+
+li a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.logo {
+    align-items: center;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-right: auto;
+    margin-left: 220px;
+}
+
+.nav-menu {
+    list-style: none;
+}
+
+.nav-menu li {
+    display: inline-block;
+    padding: 0px 29px;
+}
+
+.nav-menu li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-menu li a:hover {
+    color: #F9804B;
+}
+
+.designed {
+    position: relative;
+    left: 391px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+h1 span {
+    display: none;
+}
+
+#about {
+    color: #F9804B;
+    transition: all 0.3s ease 0s;
+}
+
+#about:hover {
+    color: white;
+}
+
+#section1 {
+    margin: 0;
+    padding: 0;
+    width: 1600px;
+    height: 700px;
+    background-image: url(../../assets/images/Giant-Panda.jpg);
+}
+
+#section1 h2 {
+    color: white;
+    width: 500.33px;
+    height: 400px;
+    position: relative;
+    top: 86px;
+    left: 880px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 106.5px;
+    line-height: 75%;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+}
+
+h2 span {
+    color: #FFEE2E;
+}
+
+.round {
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 50%;
+    position: relative;
+    bottom: 389px;
+    left: 807px;
+    right: 328px;
+    width: 465px;
+    height: 465px;
+    z-index: 1;
+}
+
+#section1 button {
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    position: relative;
+    width: 298px;
+    height: 54px;
+    bottom: 300px;
+    left: 970px;
+    border-radius: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+}
+
+#section1 button:hover {
+    background: linear-gradient(113.96deg, #FE9013 1.49%, #fdb563 101.44%);
+    cursor: pointer;
+}
+
+#section2 {
+    position: relative;
+    bottom: 70px;
+    left: 219px;
+    font-family: 'Roboto', sans-serif;
+    display: inline-flex;
+    color: #333B41;
+}
+
+#section2 img {
+    width: 609px;
+    height: 403px;
+}
+
+#section2 h2 {
+    margin: 0;
+    margin-left: 87px;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 57.6px;
+    width: 465px;
+    height: 116px;
+}
+
+#section2 .par1 {
+    margin: 0;
+    margin-left: 87px;
+    margin-bottom: 54px;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    width: 465px;
+    height: 42px;
+}
+
+#section2 .par2 {
+    margin: 0;
+    margin-left: 87px;
+    margin-bottom: 34px;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    width: 217px;
+    height: 29px;
+}
+
+#section2 .par3 {
+    margin: 0;
+    margin-left: 87px;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    width: 465px;
+    height: 105px;
+}
+
+#flower {
+    position: relative;
+    left: 230px;
+    top: 10px;
+}
+
+#section3 {
+    position: relative;
+    margin-top: 100px;
+    margin-left: 220px;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(366px, auto);
+    width: 1158px;
+    height: 872px;
+}
+
+.giant-pandas {
+    border-radius: 5px;
+    width: 366px;
+    border: solid 1px #FA6F32;
+    grid-column: 1 / 3;
+    grid-row: 1;
+    width: 366px;
+    height: 426px;
+}
+
+.eagles {
+    border-radius: 5px;
+    width: 366px;
+    border: solid 1px #FA6F32;
+    grid-column: 2 / 3;
+    grid-row: 1;
+    width: 366px;
+    height: 426px;
+}
+
+.gorillas {
+    border-radius: 5px;
+    width: 366px;
+    border: solid 1px #FA6F32;
+    grid-column: 3 / 3;
+    grid-row: 1;
+    width: 366px;
+    height: 426px;
+}
+
+.two-toed-sloth {
+    border-radius: 5px;
+    width: 366px;
+    border: solid 1px #FA6F32;
+    grid-column: 1 / 3;
+    grid-row: 2;
+    width: 366px;
+    height: 426px;
+}
+
+.cheetahs {
+    border-radius: 5px;
+    width: 366px;
+    border: solid 1px #FA6F32;
+    grid-column: 2 / 3;
+    grid-row: 2;
+    width: 366px;
+    height: 426px;
+}
+
+.penguins {
+    border-radius: 5px;
+    width: 366px;
+    border: solid 1px #FA6F32;
+    grid-column: 3 / 3;
+    grid-row: 2;
+    width: 366px;
+    height: 426px;
+}
+
+.uppercase {
+    position: relative;
+    top: 4px;
+    left: 16px;
+    margin: 0;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 140%;
+    width: 294px;
+    height: 18px;
+}
+
+.lowercase {
+    position: relative;
+    left: 16px;
+    margin: 8px 0px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    width: 294px;
+    height: 22px;
+}
+
+.banana-bamboo-icon {
+    position: relative;
+    left: 321px;
+    bottom: 45px;
+}
+
+.meet-fish-icon {
+    position: relative;
+    left: 310px;
+    bottom: 45px;
+}
+
+#left-button {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border: none;
+    position: relative;
+    top: 565px;
+    right: 1230px;
+}
+
+#right-button {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border: none;
+    position: relative;
+    bottom: 895px;
+    left: 1380px;
+}
+
+#left-button:hover {
+    background: linear-gradient(113.96deg, #f7a03d 1.49%, #fd753b 101.44%);
+    cursor: pointer;
+}
+
+#right-button:hover {
+    background: linear-gradient(113.96deg, #f7a03d 1.49%, #fd753b 101.44%);
+    cursor: pointer;
+}
+
+#palm-foto {
+    position: relative;
+    right: 65px;
+    bottom: 230px;
+}
+
+#strelitzia {
+    position: relative;
+    left: 568px;
+    bottom: 230px;
+}
+
+#choose {
+    position: relative;
+    bottom: 351px;
+    left: 280px;
+    width: 298px;
+    height: 54px;
+    border: none;
+    border-radius: 25px;
+    background: #FE9013;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#choose:hover {
+    background: linear-gradient(113.96deg, #FE9013 1.49%, #fdb563 101.44%);
+    cursor: pointer;
+}
+
+#section4 {
+    position: relative;
+    bottom: 256px;
+    margin: 0;
+    padding: 0;
+    width: 1600px;
+    height: 700px;
+    background-color: rgba(254, 189, 171, 0.74);
+    border: solid 1px;
+
+}
+
+#section4 h2 {
+    margin: 0;
+}
+
+.pick {
+    border: solid 1px;
+}
+
+footer {
+    background: black;
+    height: 443px;
+}
+
+footer .subscribe {
+    position: relative;
+    left: 1013px;
+    bottom: 58px;
+    margin: 40px 0px 0px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+footer button#donate {
+    position: relative;
+    bottom: 34px;
+    margin: 75px 0px 0px 220px;
+    width: 298px;
+    height: 54px;
+    border-radius: 5px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+footer button#donate:hover {
+    position: relative;
+    bottom: 34px;
+    margin: 75px 0px 0px 220px;
+    width: 298px;
+    height: 54px;
+    border-radius: 5px;
+    background: linear-gradient(113.96deg, #fbc9b2 1.49%, #ffc584 101.44%);
+    cursor: pointer;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+footer .mail {
+    position: relative;
+    bottom: 120px;
+    left: 493px;
+    width: 228px;
+    height: 42px;
+    border: 0.7px solid #F9804B;
+    border-radius: 2px;
+    background: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #BDBDBD;
+}
+
+footer .sbmt {
+    position: relative;
+    left: 497px;
+    bottom: 122px;
+    width: 129px;
+    height: 42px;
+    border-radius: 5px;
+    background: #F1F3F2;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+footer .sbmt:hover {
+    position: relative;
+    left: 497px;
+    bottom: 122px;
+    width: 129px;
+    height: 42px;
+    border-radius: 5px;
+    background: #000a05;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.navigation a {
+    margin-left: 58px;
+    position: relative;
+    left: 350px;
+    top: -20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer .petstory {
+    position:relative;
+    top: 41px;
+    left: 220px;
+}
+
+.social {
+    margin: 0px 12px 0px 0px;
+    position: relative;
+    top: 6px;
+    left: 0px;
+    background: rgba(196, 196, 196, 0.5);
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+}
+
+.contacts {
+    margin-left: 220px;
+}
+
+div.by p {
+    position: relative;
+    left: 920px;
+    bottom: 80px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 130%;
+    color: white;
+}
